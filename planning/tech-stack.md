@@ -76,6 +76,21 @@
   - 부트페이
   - Gumroad
   - 기타
+- [ ] [AI] 후원 서비스
+  - 사용 안함
+  - Patreon
+  - Buy Me a Coffee
+  - Ko-fi
+  - Toonation
+  - GitHub Sponsors
+  - Open Collective
+  - Liberapay
+  - Donorbox
+  - Linktree
+  - Beacons
+  - LinkStack
+  - LittleLink
+  - 기타
 - [ ] [AI] 기타 도입 툴
   - 사용 안함
   - Prisma
