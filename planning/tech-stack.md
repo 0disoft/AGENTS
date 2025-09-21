@@ -1,3 +1,89 @@
 # 테크 스택
 
-이 문서에는 프로젝트에 사용할 기술 스택(프로그래밍 언어, 프레임워크, 데이터베이스 등)을 명시합니다.
+> [!NOTE]
+> 이 질문들에 답변하기 전에, `project-summary.md` 파일의 현재 내용을 참고하여 전체적인 맥락을 파악하세요. 모든 질문에 대한 최종 답변은 이 파일이 아닌 `project-summary.md` 파일의 해당 섹션에 요약하여 기록합니다.
+
+이 문서에는 프로젝트에 사용할 기술 스택(프로그래밍 언어, 프레임워크, 데이터베이스 등)을 선택하고 명시합니다. 아래 체크리스트의 각 항목을 순서대로 진행하세요. 완료된 항목은 건너뛰고, 아직 체크되지 않은 항목의 지침을 따르세요. [AI] 라벨이 붙은 항목은 사용자에게 묻지 않고 AI가 직접 판단하여 문서화합니다.
+
+## 테크 스택 선택
+
+- [ ] [AI] 개발 유형
+  - 웹 애플리케이션 / 사이트
+  - 모바일 애플리케이션
+  - 데스크톱 애플리케이션
+  - 게임
+  - 기타
+- [ ] [AI] 풀스택(또는 프론트엔드) 프레임워크
+  - 사용 안함
+  - Astro
+  - SvelteKit
+  - QwikCity
+  - 기타
+- [ ] [AI] 스타일링 툴
+  - 사용 안함
+  - 바닐라 CSS
+  - 프레임워크 내장 UI 라이브러리
+  - UnoCSS
+  - Tailwind CSS
+  - 기타
+- [ ] [AI] 백엔드 프레임워크
+  - 사용 안함
+  - Elysia
+  - Hono
+  - 기타
+- [ ] [AI] 데이터베이스 / BaaS
+  - 사용 안함
+  - Turso (libSQL)
+  - CockroachDB (PostgreSQL 호환 분산 SQL)
+  - Supabase (PostgreSQL)
+  - Neon (PostgreSQL)
+  - Vercel Postgres (PostgreSQL)
+  - Cloudflare D1 (SQLite)
+  - 기타
+- [ ] [AI] 크로스 플랫폼 프레임워크
+  - 사용 안함
+  - Flutter
+  - Tauri
+  - 기타
+- [ ] [AI] 게임 개발 프레임워크
+  - 사용 안함
+  - Phaser (typescript)
+  - Flame (flutter)
+  - 기타
+- [ ] [AI] 런타임 환경 및 패키지 매니저
+  - 사용 안함
+  - Deno
+  - Node.js (pnpm)
+  - Bun
+  - 기타
+- [ ] [AI] 배포 플랫폼
+  - 사용 안함
+  - Cloudflare Workers
+  - Vercel
+  - Netlify
+  - Render
+  - AWS Amplify
+  - Firebase Hosting
+  - Railway
+  - Fly.io
+  - 기타
+- [ ] [AI] 결제 서비스
+  - 사용 안함
+  - 포트원
+  - Paddle
+  - Creem
+  - Lemon Squeezy
+  - 부트페이
+  - Gumroad
+  - 기타
+- [ ] [AI] 기타 도입 툴
+  - 사용 안함
+  - Prisma
+  - Drizzle
+  - Zod
+  - ArkType
+  - PostHog
+  - Bruno
+  - Nx
+  - Playwright
+  - 기타
