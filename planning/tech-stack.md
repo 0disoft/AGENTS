@@ -1,104 +1,123 @@
-# 테크 스택
+# 기술 스택 가이드
 
 > [!NOTE]
-> 이 질문들에 답변하기 전에, `project-summary.md` 파일의 현재 내용을 참고하여 전체적인 맥락을 파악하세요. 모든 질문에 대한 최종 답변은 이 파일이 아닌 `project-summary.md` 파일의 해당 섹션에 요약하여 기록합니다.
+> 이 문서는 프로젝트에 사용할 기술 스택 옵션을 제공하는 가이드입니다. 이 목록을 바탕으로 프로젝트의 성격과 목표에 맞는 기술들을 논의하고 결정하세요. 최종 결정된 내용은 `project-summary.md`의 '테크 스택' 섹션에 요약합니다.
 
-이 문서에는 프로젝트에 사용할 기술 스택(프로그래밍 언어, 프레임워크, 데이터베이스 등)을 선택하고 명시합니다. 아래 체크리스트의 각 항목을 순서대로 진행하세요. 완료된 항목은 건너뛰고, 아직 체크되지 않은 항목의 지침을 따르세요. [AI] 라벨이 붙은 항목은 사용자에게 묻지 않고 AI가 직접 판단하여 문서화합니다.
+모든 섹션은 AI가 프로젝트의 요구사항에 맞춰 최적의 조합을 제안하거나 결정할 수 있는 영역입니다.
 
-## 테크 스택 선택
+## [AI] 개발 유형
 
-- [ ] [AI] 개발 유형
-  - 웹 애플리케이션 / 사이트
-  - 모바일 애플리케이션
-  - 데스크톱 애플리케이션
-  - 게임
-  - 기타
-- [ ] [AI] 풀스택(또는 프론트엔드) 프레임워크
-  - 사용 안함
+- 웹 애플리케이션 / 사이트
+- 모바일 애플리케이션
+- 데스크톱 애플리케이션
+- 게임
+- 기타
+
+## [AI] 프론트엔드
+
+- **프레임워크**
   - Astro
   - SvelteKit
   - QwikCity
-  - 기타
-- [ ] [AI] 스타일링 툴
-  - 사용 안함
+- **스타일링**
   - 바닐라 CSS
-  - 프레임워크 내장 UI 라이브러리
   - UnoCSS
   - Tailwind CSS
-  - 기타
-- [ ] [AI] 백엔드 프레임워크
-  - 사용 안함
+
+## [AI] 백엔드
+
+- **프레임워크**
   - Elysia
   - Hono
-  - 기타
-- [ ] [AI] 데이터베이스 / BaaS
-  - 사용 안함
-  - Turso (libSQL)
-  - CockroachDB (PostgreSQL 호환 분산 SQL)
+
+## [AI] 런타임 환경 및 언어
+
+- Bun
+- Deno
+- Node.js (pnpm)
+
+## [AI] 데이터베이스
+
+- **관계형 (Relational)**
+  - PostgreSQL
+  - SQLite
+- **BaaS / 서버리스**
   - Supabase (PostgreSQL)
   - Neon (PostgreSQL)
   - Vercel Postgres (PostgreSQL)
+  - Turso (libSQL/SQLite)
   - Cloudflare D1 (SQLite)
-  - 기타
-- [ ] [AI] 크로스 플랫폼 프레임워크
-  - 사용 안함
-  - Flutter
-  - Tauri
-  - 기타
-- [ ] [AI] 게임 개발 프레임워크
-  - 사용 안함
-  - Phaser (typescript)
-  - Flame (flutter)
-  - 기타
-- [ ] [AI] 런타임 환경 및 패키지 매니저
-  - 사용 안함
-  - Deno
-  - Node.js (pnpm)
-  - Bun
-  - 기타
-- [ ] [AI] 배포 플랫폼
-  - 사용 안함
+  - CockroachDB
+- **ORM**
+  - Prisma
+  - Drizzle
+
+## [AI] 크로스 플랫폼
+
+- Tauri (Rust)
+- Flutter (Dart)
+
+## [AI] 게임 개발
+
+- Phaser (TypeScript)
+- Flame (Flutter)
+
+## [AI] 데브옵스 및 배포
+
+- **컨테이너**
+  - Docker
+- **배포 플랫폼**
   - Cloudflare Workers
   - Vercel
   - Netlify
-  - Render
-  - AWS Amplify
-  - Firebase Hosting
-  - Railway
   - Fly.io
-  - 기타
-- [ ] [AI] 결제 서비스
-  - 사용 안함
+  - Render
+  - Railway
+- **CI/CD**
+  - GitHub Actions
+
+## [AI] 서비스
+
+- **결제**
   - 포트원
   - Paddle
-  - Creem
   - Lemon Squeezy
+  - Creem
   - 부트페이
   - Gumroad
-  - 기타
-- [ ] [AI] 후원 서비스
-  - 사용 안함
-  - Patreon
+- **후원**
+  - GitHub Sponsors
   - Buy Me a Coffee
   - Ko-fi
-  - Toonation
-  - GitHub Sponsors
-  - Open Collective
-  - Liberapay
-  - Donorbox
-  - Linktree
-  - Beacons
-  - LinkStack
-  - LittleLink
-  - 기타
-- [ ] [AI] 기타 도입 툴
-  - 사용 안함
-  - Prisma
-  - Drizzle
+  - Patreon
+
+## [AI] 기타 주요 툴
+
+- **정적 코드 분석 / 포매팅**
+  - ESLint
+  - Prettier
+  - Biome.js
+- **빌드 툴 / 번들러**
+  - Vite
+  - esbuild
+- **단위/통합 테스팅**
+  - Vitest
+  - Jest
+- **엔드투엔드 테스팅**
+  - Playwright
+- **상태 관리 (프론트엔드)**
+  - Zustand
+  - Jotai
+  - XState
+- **유효성 검사**
   - Zod
   - ArkType
-  - PostHog
-  - Bruno
+- **모노레포 관리**
+  - Turborepo
   - Nx
-  - Playwright
-  - 기타
+- **API 클라이언트**
+  - Bruno
+- **분석**
+  - PostHog
+  - Plausible
+  - Umami
