@@ -14,11 +14,11 @@
 
 ## 프로젝트 개요 짜기
 
-프로젝트 개요를 설정하는 전체 과정은 `planning/project-status.md` 파일의 체크리스트를 통해 관리합니다. 해당 파일의 지침에 따라 각 단계를 진행하고, `planning/project-summary.md`에 결정 사항을 요약 기록하세요.
+프로젝트 개요를 설정하는 전체 과정은 `agents-playbook/planning/project-status.md` 파일의 체크리스트를 통해 관리합니다. 해당 파일의 지침에 따라 각 단계를 진행하고, `agents-playbook/planning/project-summary.md`에 결정 사항을 요약 기록하세요.
 
 ## 개발 계획 수립
 
-프로젝트 개요 정리가 완료되면 `planning/development-plan.md`를 기반으로 개발 로드맵을 작성하세요. 아래 흐름을 따릅니다.
+프로젝트 개요 정리가 완료되면 `agents-playbook/planning/development-plan.md`를 기반으로 개발 로드맵을 작성하세요. 아래 흐름을 따릅니다.
 
-1. `planning/project-summary.md`에서 최신 비즈니스 목표와 기능 결정을 확인합니다.
-2. `planning/development-plan.md`의 작성 흐름을 따라 마일스톤 표, 우선순위 백로그를 채웁니다.
+1. `agents-playbook/planning/project-summary.md`에서 최신 비즈니스 목표와 기능 결정을 확인합니다.
+2. `agents-playbook/planning/development-plan.md`의 작성 흐름을 따라 마일스톤 표, 우선순위 백로그를 채웁니다.

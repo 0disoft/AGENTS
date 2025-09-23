@@ -1,7 +1,7 @@
 # 아키텍처 설계
 
 > [!NOTE]
-> 이 문서에서 아키텍처를 설계하세요. 수립된 계획의 핵심 요약은 `project-summary.md` 파일에 기록합니다. 계획을 세우기 전에 `project-summary.md`를 참고하여 전체 프로젝트의 맥락을 파악하세요.
+> 이 문서에서 아키텍처를 설계하세요. 수립된 계획의 핵심 요약은 `agents-playbook/planning/project-summary.md` 파일에 기록합니다. 계획을 세우기 전에 `agents-playbook/planning/project-summary.md`를 참고하여 전체 프로젝트의 맥락을 파악하세요.
 > [!TIP]
 > Mermaid.js 문법을 사용하면 텍스트만으로 ERD, 시퀀스 다이어그램 등 다양한 다이어그램을 문서에 직접 포함시킬 수 있습니다.
 
@@ -43,7 +43,7 @@ erDiagram
 | | | | | |
 | | | | | |
 
-> 기능이 확정되면 엔드포인트를 계속 추가하고, 변경 시에는 `project-summary.md`의 아키텍처 요약도 함께 업데이트하세요.
+> 기능이 확정되면 엔드포인트를 계속 추가하고, 변경 시에는 `agents-playbook/planning/project-summary.md`의 아키텍처 요약도 함께 업데이트하세요.
 
 ## [AI] 주요 컴포넌트 설계 (프론트엔드)
 

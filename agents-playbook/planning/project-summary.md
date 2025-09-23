@@ -11,7 +11,7 @@
 - 핵심 가치 제안 및 차별화:
 - 수익 모델 및 가격:
 
-*상세 내용은 `business-model.md` 참조*
+*상세 내용은 `agents-playbook/planning/business-model.md` 참조*
 
 ## 2. 핵심 기능 (Core Features)
 
@@ -25,16 +25,24 @@
   - 다국어 지원: (예시: 영어, 스페인어, 프랑스어, 독일어, 포르투갈어, 중국어(간체), 아랍어, 일본어, 힌디어, 한국어, 네덜란드어, 이탈리아어, 스웨덴어, 인도네시아어)
   - 테마 변경 지원: (예시: 다크모드, 라이트모드)
 
-*상세 내용은 `features.md` 참조*
+*상세 내용은 `agents-playbook/planning/features.md` 참조*
 
 ## 3. 디자인 콘셉트 (Design Concept)
 
 - 핵심 키워드:
-- 색상/타이포그래피 방향:
+- 색상 표현 방식 및 명명 규칙:
+- 기본 색상(Primary) 요약:
+- 보조/강조 색상(Secondary/Accent):
+- 배경·표면 색상:
+- 텍스트 색상 가이드:
+- 상태/상호작용 색상(호버, 포커스, 비활성 등):
+- 피드백 메시지 색상(성공, 경고, 오류, 정보):
+- 확장 고려 사항(다크 모드, 데이터 시각화 등):
+- 타이포그래피 방향:
 - 선택한 스타일 테마:
 - 구현 시 주의사항:
 
-*상세 내용은 `style-guide.md` 참조*
+*상세 내용은 `agents-playbook/planning/style-guide.md` 참조*
 
 ## 4. 기술 스택 (Tech Stack)
 
@@ -60,7 +68,7 @@
   - 후원:
 - **기타 주요 툴:**
 
-*상세 내용은 `tech-stack.md` 참조*
+*상세 내용은 `agents-playbook/planning/tech-stack.md` 참조*
 
 ## 5. 아키텍처 (Architecture)
 
@@ -69,8 +77,8 @@
 - API 설계 원칙:
 - 프론트엔드 컴포넌트 설계 방향:
 
-*상세 내용은 `architecture.md` 참조*
+*상세 내용은 `agents-playbook/planning/architecture.md` 참조*
 
 ## 6. 개발 로드맵 (Development Roadmap)
 
-*상세 내용은 `development-plan.md` 참조*
+*상세 내용은 `agents-playbook/planning/development-plan.md` 참조*
