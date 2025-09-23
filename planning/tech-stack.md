@@ -26,6 +26,7 @@
   - 바닐라 CSS
   - UnoCSS
   - Tailwind CSS
+  - shadcn/svelte
   - 기타
   - 사용안함
 
