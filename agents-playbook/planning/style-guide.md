@@ -37,7 +37,7 @@
 
 ## [AI] 색상 시스템 정의 가이드
 
-색상 관련 질문은 아래 항목을 참고하여 빠짐없이 수집합니다. 정의된 결과는 `agents-playbook/planning/project-summary.md`의 '디자인 콘셉트' 섹션에 함께 정리합니다.
+색상 관련 질문은 아래 항목을 참고하여 빠짐없이 수집합니다. 정의된 결과는 `agents-playbook/planning/project-summary.md`의 '디자인 콘셉트' 섹션에 함께 정리합니다. 전반적인 색상 선택 시 눈 피로를 줄이기 위해 red(빨강)이나 blue(파랑) 같은 원색 사용은 피하고, 필요한 경우 채도를 낮춘 변주안을 검토하세요.
 
 - 핵심 색상 그룹
   - 기본(primary) 색상, 보조(secondary) 색상, 강조(accent) 색상
