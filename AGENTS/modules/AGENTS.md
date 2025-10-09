@@ -6,55 +6,123 @@
 
 - **[`api_design.md`](./api_design.md)**: 프론트엔드와 백엔드가 통신할 API의 명세를 설계합니다.
 - **[`api_documentation_plan.md`](./api_documentation_plan.md)**: 다른 개발자들이 API를 쉽게 사용하도록 문서를 작성하고 관리할 계획을 세웁니다.
+- **[`appendix.md`](./appendix.md)**: 이력서, 시장 조사 데이터, 제품 사진 등 본문에 포함하기 어려운 보충 자료를 첨부합니다.
 - **[`app_store_submission_plan.md`](./app_store_submission_plan.md)**: Apple App Store 및 Google Play Store 등록 계획을 수립합니다.
 - **[`architecture.md`](./architecture.md)**: 프로젝트의 기술적 구조와 설계 원칙을 정의합니다.
+- **[`art_style_and_assets.md`](./art_style_and_assets.md)**: 게임의 전반적인 비주얼 스타일을 정의하고, 필요한 2D/3D 아트 애셋을 계획하고 제작합니다.
 - **[`auto_update_strategy.md`](./auto_update_strategy.md)**: 사용자 편의를 위한 자동 업데이트 기능의 구현 전략을 설계합니다.
+- **[`balance_and_playtesting.md`](./balance_and_playtesting.md)**: 게임의 재미와 공정성을 위해 구성 요소 간의 밸런스를 조정하고 플레이테스트를 진행합니다.
+- **[`background_art_production.md`](./background_art_production.md)**: 이야기의 배경이 되는 장소와 분위기를 표현하는 배경 아트를 제작합니다.
 - **[`background_jobs.md`](./background_jobs.md)**: 이메일 발송, 데이터 집계 등 시간이 오래 걸리는 작업을 백그라운드에서 처리하는 방식을 설계합니다.
+- **[`branching_narrative_design.md`](./branching_narrative_design.md)**: 플레이어의 선택에 따라 이야기가 여러 갈래로 나뉘는 분기형 내러티브 구조를 설계합니다.
 - **[`browser_compatibility_plan.md`](./browser_compatibility_plan.md)**: Chrome, Firefox, Safari, Edge 등 타겟 브라우저별 호환성 확보 계획을 수립합니다.
+- **[`campaign_budgeting.md`](./campaign_budgeting.md)**: 각 채널과 활동에 대한 예산을 할당하고 전체 캠페인 비용을 계획합니다.
+- **[`campaign_execution_and_schedule.md`](./campaign_execution_and_schedule.md)**: 캠페인 시작부터 종료까지의 전체 실행 타임라인과 담당자, 업무를 정리합니다.
+- **[`campaign_goal_and_kpi.md`](./campaign_goal_and_kpi.md)**: 캠페인의 구체적인 목표(예: 인지도 상승, 리드 확보)와 핵심 성과 지표(KPI)를 설정합니다.
 - **[`caching_strategy.md`](./caching_strategy.md)**: 반복적인 요청에 대한 응답 속도 향상을 위해 캐시(Cache) 적용 전략을 수립합니다.
+- **[`character_arc.md`](./character_arc.md)**: 인물의 변화와 성장을 구체적으로 설계합니다.
 - **[`character_development.md`](./character_development.md)**: 주인공, 조력자, 적대자 등 주요 인물들의 성격, 배경, 목표를 설정합니다.
+- **[`character_sprite_production.md`](./character_sprite_production.md)**: 다양한 감정과 포즈를 표현하는 캐릭터 스프라이트(일러스트)를 제작합니다.
+- **[`channel_strategy.md`](./channel_strategy.md)**: 타겟 고객에게 도달하기 위한 최적의 마케팅 채널(소셜 미디어, 검색 엔진, 이메일 등)을 선정하고 전략을 수립합니다.
+- **[`channel_strategy_for_personal_brand.md`](./channel_strategy_for_personal_brand.md)**: 블로그, 소셜 미디어, 뉴스레터 등 브랜드를 전파할 핵심 채널을 선정하고 운영 전략을 수립합니다.
 - **[`ci_cd_pipeline.md`](./ci_cd_pipeline.md)**: 지속적 통합 및 배포 파이프라인을 설계합니다.
 - **[`command_structure_design.md`](./command_structure_design.md)**: CLI 도구의 명령어, 하위 명령어, 옵션 및 인수 구조를 설계합니다.
+- **[`company_overview.md`](./company_overview.md)**: 회사의 비전, 미션, 법적 구조, 연혁 등 기본적인 개요를 설명합니다.
+- **[`community_management.md`](./community_management.md)**: 독자 커뮤니티를 관리하고 참여를 유도하는 전략을 수립합니다.
+- **[`component_design.md`](./component_design.md)**: 카드, 보드, 토큰, 주사위 등 게임에 필요한 물리적 구성물을 디자인합니다.
 - **[`configuration_management.md`](./configuration_management.md)**: 사용자가 도구의 설정을 저장하고 관리하는 방식(예: `~/.config` 내 파일)을 설계합니다.
+- **[`content_creation_for_marketing.md`](./content_creation_for_marketing.md)**: 캠페인에 사용될 이미지, 영상, 블로그 포스트 등 다양한 마케팅 콘텐츠를 기획하고 제작합니다.
+- **[`content_curation.md`](./content_curation.md)**: 뉴스레터에 포함할 가치 있는 콘텐츠를 수집하고 선별하는 과정을 정의합니다.
+- **[`content_strategy.md`](./content_strategy.md)**: 블로그/매거진의 핵심 주제, 타겟 독자, 콘텐츠 형식 등 전반적인 콘텐츠 전략을 수립합니다.
+- **[`content_strategy_for_personal_brand.md`](./content_strategy_for_personal_brand.md)**: 개인 브랜드를 알리기 위한 핵심 콘텐츠 주제, 형식, 톤앤매너를 포함한 콘텐츠 전략을 수립합니다.
+- **[`core_concept_and_theme.md`](./core_concept_and_theme.md)**: 게임의 핵심 아이디어, 배경 테마, 플레이어 경험 목표를 설정합니다.
+- **[`course_marketing.md`](./course_marketing.md)**: 잠재 수강생들에게 강의를 알리고 판매를 촉진하기 위한 마케팅 전략을 수립합니다.
 - **[`cover_art_and_illustration.md`](./cover_art_and_illustration.md)**: 작품의 표지 및 삽화에 대한 콘셉트와 계획을 세웁니다.
+- **[`curriculum_design.md`](./curriculum_design.md)**: 강의의 전체적인 커리큘럼과 학습 목표를 설계합니다.
 - **[`data_management.md`](./data_management.md)**: 데이터베이스, 스키마, ORM 등 데이터 처리 및 저장 방식을 결정합니다.
 - **[`data_preprocessing_and_feature_engineering.md`](./data_preprocessing_and_feature_engineering.md)**: 데이터를 정제하고 모델이 학습하기 좋은 형태로 가공(피처 엔지니어링)합니다.
 - **[`data_sourcing_and_collection.md`](./data_sourcing_and_collection.md)**: 모델 훈련에 필요한 데이터를 수집하고 확보하는 방안을 계획합니다.
 - **[`database_schema_design.md`](./database_schema_design.md)**: 데이터베이스의 테이블 구조와 관계를 상세하게 설계합니다.
+- **[`delivery_and_scheduling.md`](./delivery_and_scheduling.md)**: 뉴스레터 발송 주기, 요일, 시간 등 최적의 발송 스케줄을 계획합니다.
+- **[`dialogue_writing.md`](./dialogue_writing.md)**: 인물의 성격과 상황에 맞는 자연스럽고 효과적인 대사를 작성합니다.
 - **[`editing_and_revision.md`](./editing_and_revision.md)**: 완성된 원고의 문법, 문체, 스토리 개연성 등을 수정하고 퇴고합니다.
+- **[`email_design_and_template.md`](./email_design_and_template.md)**: 독자의 가독성과 참여를 높이는 이메일 템플릿을 디자인합니다.
+- **[`editorial_workflow.md`](./editorial_workflow.md)**: 콘텐츠 아이디어 발상부터 기사 작성, 편집, 발행까지의 워크플로우를 정의합니다.
+- **[`executive_summary.md`](./executive_summary.md)**: 사업계획서의 모든 핵심 내용을 요약하여 첫인상을 결정하는 경영 요약 파트를 작성합니다.
 - **[`exploratory_data_analysis.md`](./exploratory_data_analysis.md)**: 수집된 데이터를 탐색하고 분석하여 인사이트를 도출합니다. (EDA)
+- **[`financial_projections.md`](./financial_projections.md)**: 손익 계산서, 대차대조표, 현금 흐름표 등 향후 3~5년간의 재무 추정 자료를 작성합니다.
+- **[`funding_request.md`](./funding_request.md)**: 필요한 투자금의 규모, 사용 계획, 투자 형태(지분, 대출 등)를 명확히 제시합니다.
+- **[`game_design_document.md`](./game_design_document.md)**: 게임의 핵심 콘셉트, 장르, 목표, 규칙 등을 상세히 기술하는 게임 디자인 문서를 작성합니다.
+- **[`game_engine_selection.md`](./game_engine_selection.md)**: 프로젝트의 요구사항에 가장 적합한 게임 엔진(예: Unity, Unreal, Godot)을 선정합니다.
+- **[`gameplay_loop_and_phases.md`](./gameplay_loop_and_phases.md)**: 게임의 한 턴(Turn) 또는 라운드(Round)가 진행되는 순서와 단계를 설계합니다.
+- **[`gameplay_mechanics.md`](./gameplay_mechanics.md)**: 플레이어가 게임 세계와 상호작용하는 핵심 규칙과 시스템(예: 점프, 전투)을 설계합니다.
+- **[`game_setup_rules.md`](./game_setup_rules.md)**: 게임을 시작하기 위한 구성물 배치 및 초기 설정 규칙을 정의합니다.
 - **[`extension_architecture.md`](./extension_architecture.md)**: 백그라운드 스크립트, 콘텐츠 스크립트, 팝업 등 확장 프로그램의 구조를 설계합니다.
 - **[`idea_development.md`](./idea_development.md)**: 작품의 핵심 아이디어, 주제, 로그라인을 구체화합니다.
 - **[`implementation_plan.md`](./implementation_plan.md)**: 실제 코드 개발에 대한 단계별 실행 계획을 수립합니다.
 - **[`infrastructure_planning.md`](./infrastructure_planning.md)**: 서버, 배포, CI/CD 등 인프라 구축 계획을 세웁니다.
+- **[`interactive_fiction_writing.md`](./interactive_fiction_writing.md)**: 플레이어의 행동과 상황에 맞춰 생생한 묘사와 응답을 작성하는 인터랙티브 픽션 작법을 계획합니다.
+- **[`key_messaging_and_copywriting.md`](./key_messaging_and_copywriting.md)**: 캠페인의 핵심 메시지를 정의하고, 광고, 게시물, 이메일 등에 사용될 카피를 작성합니다.
+- **[`lecture_scripting.md`](./lecture_scripting.md)**: 각 강의 영상의 스크립트와 발표 내용을 작성합니다.
+- **[`level_design.md`](./level_design.md)**: 플레이어가 탐험하고 상호작용할 게임 내 스테이지나 환경을 설계합니다.
+- **[`list_building_strategy.md`](./list_building_strategy.md)**: 잠재 구독자를 모으고 이메일 목록을 늘리는 전략을 수립합니다.
 - **[`local_storage_plan.md`](./local_storage_plan.md)**: 오프라인 지원 등을 위한 디바이스 내부 데이터 저장 전략을 수립합니다.
 - **[`logging_monitoring.md`](./logging_monitoring.md)**: 서비스 운영 중 발생할 수 있는 오류 로깅 및 성능 모니터링 방안을 수립합니다.
+- **[`management_team.md`](./management_team.md)**: 경영진, 핵심 인력, 고문의 전문성과 경험을 소개해 팀의 역량을 어필합니다.
 - **[`market_research.md`](./market_research.md)**: 타겟 시장, 사용자, 경쟁 환경을 분석하여 프로젝트의 방향성을 설정합니다.
+- **[`marketing_and_sales_strategy.md`](./marketing_and_sales_strategy.md)**: 타겟 고객에게 도달하고 판매를 촉진하기 위한 구체적인 마케팅 및 영업 전략을 수립합니다.
 - **[`ml_ops_and_monitoring.md`](./ml_ops_and_monitoring.md)**: 배포된 모델의 성능 저하(Drift)를 감지하고, 재학습 파이프라인을 구축하는 등 MLOps 방안을 설계합니다.
 - **[`model_deployment_strategy.md`](./model_deployment_strategy.md)**: 완성된 모델을 실제 서비스에서 사용할 수 있도록 배포하는 전략(API, 배치 등)을 수립합니다.
 - **[`model_evaluation.md`](./model_evaluation.md)**: 훈련된 모델의 성능을 다양한 평가지표를 통해 객관적으로 측정합니다.
 - **[`model_selection.md`](./model_selection.md)**: 문제에 가장 적합한 머신러닝 모델(회귀, 분류 등)의 종류를 선택합니다.
 - **[`model_training_and_tuning.md`](./model_training_and_tuning.md)**: 선택된 모델을 데이터로 훈련시키고, 최적의 성능을 내도록 하이퍼파라미터를 튜닝합니다.
+- **[`monetization_models.md`](./monetization_models.md)**: 광고, 구독, 후원 등 블로그/매거진의 수익화 모델을 설계합니다.
 - **[`monetization_strategy.md`](./monetization_strategy.md)**: 유료/무료 모델, 외전 판매 등 수익화 전략을 결정합니다.
+- **[`networking_strategy.md`](./networking_strategy.md)**: 온/오프라인에서 관련 분야 전문가 및 잠재 고객과 관계를 형성하기 위한 네트워킹 전략을 수립합니다.
+- **[`npc_interaction_design.md`](./npc_interaction_design.md)**: 텍스트 명령어를 통해 NPC와 대화하고 상호작용하는 시스템을 설계합니다.
 - **[`native_os_integration.md`](./native_os_integration.md)**: 파일 시스템 접근, OS 알림 등 네이티브 운영체제 기능 연동 계획을 수립합니다.
+- **[`open_and_click_analytics.md`](./open_and_click_analytics.md)**: 이메일 오픈율, 클릭률 등 핵심 지표를 분석하여 성과를 측정하고 개선합니다.
 - **[`output_formatting_plan.md`](./output_formatting_plan.md)**: 테이블, 색상, 진행률 표시줄 등 사용자가 보기 좋은 터미널 출력 형식을 계획합니다.
 - **[`packaging_distribution_plan.md`](./packaging_distribution_plan.md)**: 각 운영체제에 맞는 설치 파일(.exe, .dmg 등) 패키징 및 배포 계획을 수립합니다.
+- **[`parser_design.md`](./parser_design.md)**: "go north", "get lamp" 등 플레이어의 텍스트 입력을 해석하는 파서(parser)를 설계합니다.
+- **[`personal_brand_identity.md`](./personal_brand_identity.md)**: 자신의 강점, 가치, 전문성을 기반으로 고유한 개인 브랜드 아이덴티티를 정의합니다.
+- **[`personal_website_or_portfolio.md`](./personal_website_or_portfolio.md)**: 자신의 전문성과 결과물을 보여줄 수 있는 개인 웹사이트 또는 포트폴리오를 기획하고 구축합니다.
 - **[`payment_gateway.md`](./payment_gateway.md)**: 결제 시스템 연동에 필요한 사항을 계획하고 설계합니다.
+- **[`performance_tracking_and_reporting.md`](./performance_tracking_and_reporting.md)**: 캠페인 성과를 KPI에 따라 추적하고, 분석하여 보고서를 작성합니다.
 - **[`permissions_and_security.md`](./permissions_and_security.md)**: `manifest.json`에 명시할 권한을 최소한으로 요청하고, 보안 위협에 대비하는 계획을 세웁니다.
 - **[`platform_and_promotion.md`](./platform_and_promotion.md)**: 웹소설을 연재할 플랫폼(시리즈, 문피아 등)을 선정하고, 홍보 계획을 수립합니다.
 - **[`platform_selection.md`](./platform_selection.md)**: iOS, Android, 크로스플랫폼 등 개발할 플랫폼을 결정합니다.
+- **[`player_actions_and_abilities.md`](./player_actions_and_abilities.md)**: 플레이어가 자신의 턴에 할 수 있는 행동과 특수 능력을 구체적으로 설계합니다.
+- **[`playtesting_and_feedback.md`](./playtesting_and_feedback.md)**: 실제 플레이어들을 대상으로 테스트를 진행하고, 피드백을 수집하여 게임을 개선합니다.
 - **[`plot_and_outline.md`](./plot_and_outline.md)**: 발단-전개-위기-절정-결말의 전체 줄거리와 챕터별 세부 구성을 설계합니다.
+- **[`product_and_service_description.md`](./product_and_service_description.md)**: 제공하는 제품이나 서비스의 특징, 장점, 경쟁력, 수명 주기 등을 상세히 기술합니다.
 - **[`problem_definition.md`](./problem_definition.md)**: 해결하고자 하는 문제를 정의하고, 성공을 측정할 지표를 설정합니다.
+- **[`prototyping_plan.md`](./prototyping_plan.md)**: 핵심 게임플레이 메카닉을 검증하기 위한 프로토타입 개발 계획을 수립합니다.
 - **[`push_notification_strategy.md`](./push_notification_strategy.md)**: 사용자 재방문 및 상호작용을 위한 푸시 알림 전략을 설계합니다.
+- **[`puzzle_design.md`](./puzzle_design.md)**: 아이템 사용, 정보 조합 등 텍스트 기반 환경에서 해결할 수 있는 퍼즐을 설계합니다.
 - **[`rate_limiting_plan.md`](./rate_limiting_plan.md)**: 서비스 안정성을 위해 사용자 또는 IP별 API 요청 횟수를 제어하는 전략을 설계합니다.
+- **[`rulebook_writing.md`](./rulebook_writing.md)**: 플레이어가 게임을 배우고 참고할 수 있도록 규칙서를 명확하고 이해하기 쉽게 작성합니다.
+- **[`scene_writing.md`](./scene_writing.md)**: 각 장면의 배경, 행동, 사건을 상세하게 기술합니다.
+- **[`script_formatting.md`](./script_formatting.md)**: 업계 표준에 맞는 대본 포맷(장면 번호, 인물, 대사 등)을 적용합니다.
+- **[`script_implementation.md`](./script_implementation.md)**: 작성된 대본과 내러티브 분기를 비주얼 노벨 엔진에 적용하는 기술적 작업을 계획합니다.
 - **[`security_audit.md`](./security_audit.md)**: 애플리케이션의 보안 취약점을 점검하고 강화 방안을 계획합니다.
+- **[`seo_and_promotion.md`](./seo_and_promotion.md)**: 검색 엔진 최적화(SEO) 및 소셜 미디어 홍보를 통해 콘텐츠 도달을 극대화하는 전략을 수립합니다.
 - **[`serialization_schedule.md`](./serialization_schedule.md)**: 독자들을 위해 주 몇 회, 어떤 요일에 연재할지 계획을 수립합니다.
+- **[`sound_design_and_music.md`](./sound_design_and_music.md)**: 게임의 분위기를 조성하고 플레이어에게 피드백을 제공하는 효과음과 배경음악을 디자인합니다.
 - **[`state_management.md`](./state_management.md)**: 프론트엔드 애플리케이션의 복잡한 상태 관리 전략을 수립합니다.
+- **[`student_assessment.md`](./student_assessment.md)**: 퀴즈, 과제, 프로젝트 등 수강생의 학습 성취도를 평가하는 방법을 설계합니다.
+- **[`subscriber_segmentation.md`](./subscriber_segmentation.md)**: 관심사, 활동 수준에 따라 구독자를 그룹화하여 타겟 메시지를 보내는 전략을 수립합니다.
 - **[`tech_stack_selection.md`](./tech_stack_selection.md)**: 프로젝트에 사용할 프로그래밍 언어, 프레임워크, 라이브러리를 선정합니다.
 - **[`testing_plan.md`](./testing_plan.md)**: 프로젝트의 안정성을 보장하기 위한 테스트 전략과 범위를 정의합니다.
+- **[`treatment_development.md`](./treatment_development.md)**: 시놉시스를 확장하여 주요 장면과 스토리를 요약한 트리트먼트를 작성합니다.
+- **[`ui_and_text_box_design.md`](./ui_and_text_box_design.md)**: 텍스트 가독성과 사용자 편의성을 고려한 UI와 대화창을 디자인합니다.
 - **[`ui_ux_design.md`](./ui_ux_design.md)**: 사용자 경험(UX)과 사용자 인터페이스(UI)를 설계합니다.
 - **[`user_authentication.md`](./user_authentication.md)**: 사용자 회원가입, 로그인 등 인증 로직을 설계합니다.
 - **[`user_stories.md`](./user_stories.md)**: 사용자 관점의 요구사항과 기능 시나리오를 구체적으로 작성합니다.
+- **[`visual_aid_production.md`](./visual_aid_production.md)**: 강의에 사용될 슬라이드, 이미지, 영상 등 시각 자료를 제작합니다.
+- **[`voice_acting_direction.md`](./voice_acting_direction.md)**: 캐릭터의 성격과 상황에 맞는 목소리 연기를 녹음하고 디렉팅하는 과정을 계획합니다.
+- **[`win_loss_conditions.md`](./win_loss_conditions.md)**: 게임이 종료되는 조건과 승리 또는 패배를 결정하는 규칙을 명확히 합니다.
 - **[`webstore_submission_plan.md`](./webstore_submission_plan.md)**: Chrome 웹 스토어, Firefox Add-ons 등 각 마켓플레이스 등록 및 검수 과정을 계획합니다.
 - **[`world_building.md`](./world_building.md)**: 작품의 배경이 되는 세계관, 시대, 사회, 규칙 등을 설계합니다.
+- **[`world_model_and_state.md`](./world_model_and_state.md)**: 게임 세계의 모든 장소, 아이템, NPC의 상태를 추적하고 관리하는 시스템을 설계합니다.
 - **[`writing_and_drafting.md`](./writing_and_drafting.md)**: 설정과 줄거리에 따라 실제 원고를 집필합니다.
