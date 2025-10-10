@@ -33,6 +33,11 @@
 3. **(최초 실행 시)** "Phase 0: 프로젝트 종류 선택" 단계의 액션에 따라, 에이전트가 [`select_project_type.md`](./select_project_type.md) 파일의 내용을 안내하여 프로젝트 종류를 선택합니다.
 4. 선택이 완료되면, 에이전트는 [`AGENTS/project_status.md`](./project_status.md)의 "Phase 0"을 '완료'로 업데이트하고 "Phase 1"을 시작합니다.
 
+## LLM과의 상호작용 (Interaction with LLM)
+
+- **질문/요청**: 사용자 또는 에이전트가 LLM에게 질문하거나 특정 작업을 요청할 때는 [`AGENTS/request.md`](./request.md) 파일을 사용합니다.
+- **조언/답변**: LLM이 사용자에게 구조화된 답변이나 조언을 제공할 때는 [`AGENTS/response.md`](./response.md) 파일에 내용을 저장합니다.
+
 ## 폴더 구조 (Folder Structure)
 
 - **[`AGENTS/project_status.md`](./project_status.md)**: **(가장 중요)** 프로젝트의 전체 순서도이자 현재 상태를 나타내는 대시보드 파일입니다.

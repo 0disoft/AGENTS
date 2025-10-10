@@ -6,6 +6,8 @@
 
 ## 전체 워크플로우 (Overall Workflow)
 
+*각 페이즈의 상세한 진행 과정과 필요한 모듈은 선택된 프로젝트 종류에 해당하는 플레이북 문서([`playbooks/YOUR_PROJECT_TYPE.md`](./playbooks/YOUR_PROJECT_TYPE.md))에서 확인할 수 있습니다.*
+
 - [ ] **Phase 0: 프로젝트 종류 선택 (Select Project Type)**
   - **상태**: `미시작 (Not Started)`
   - **설명**: 만들고자 하는 창작물의 종류를 선택합니다.
