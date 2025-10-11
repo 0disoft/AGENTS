@@ -1,8 +1,7 @@
-# LLM의 조언/답변 (LLM's Advice/Answer)
+# 파일의 용도
 
-이 파일은 LLM이 제공하는 조언이나 답변이 저장되는 공간입니다.
-(This file is where the advice or answers provided by the LLM are saved.)
+이 파일은 LLM이 제공하는 조언이나 답변이 구조화되어 저장되는 공간입니다.
 
-## LLM의 답변 (LLM's Answer)
+## LLM의 답변
 
-여기에 LLM의 답변이 표시됩니다. (The LLM's answer will appear here.)
+여기에 LLM의 답변이 저장됩니다.
