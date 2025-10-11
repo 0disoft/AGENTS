@@ -35,3 +35,11 @@
 - **[`AGENTS/AGENTS.md`](./AGENTS.md)**: 이 폴더의 사용 지침입니다.
 - **[`AGENTS/request.md`](./request.md)**: 사용자나 에이전트가 LLM에게 전달할 질문 또는 요청을 정리합니다.
 - **[`AGENTS/response.md`](./response.md)**: LLM이 제공한 조언이나 답변을 보관합니다.
+- **[`AGENTS/requests/`](./requests/)**: 날짜별·주제별 사용자 요청 문서를 아카이브합니다.
+- **[`AGENTS/responses/`](./responses/)**: 각 요청에 대한 LLM 답변과 회고를 저장합니다.
+- **[`AGENTS/plans/`](./plans/)**: 프로젝트별 계획, 체크리스트, 마일스톤을 정리합니다.
+- **[`AGENTS/research/`](./research/)**: 기술 조사, 참고 링크, 벤치마킹 자료를 저장합니다.
+- **[`AGENTS/snippets/`](./snippets/)**: 재사용할 코드 블록이나 명령어 조각을 보관합니다.
+- **[`AGENTS/templates/`](./templates/)**: 비교표, 보고서 형태 등 재사용 가능한 문서 템플릿을 모읍니다.
+- **[`AGENTS/logs/`](./logs/)**: 일자별 작업 로그와 결정 기록을 정리합니다.
+- **[`AGENTS/assets/`](./assets/)**: 로고, 색상 팔레트, 이미지 등 공용 자료를 관리합니다.

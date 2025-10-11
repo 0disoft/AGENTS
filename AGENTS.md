@@ -57,6 +57,18 @@
   - **(좋은 예)** `cd AGENTS/modules` 또는 `cd AGENTS\\modules`
   - **(나쁜 예)** `cd AGENTS\modules`
 
+### 자주 쓰는 터미널 명령 (Git Bash 기준)
+
+- `ls`: 현재 폴더 목록 확인
+- `pwd`: 현재 경로 확인
+- `cat 파일`, `nl -ba 파일`: 파일 내용 확인, 줄 번호 포함 출력
+- `touch 파일`, `mkdir 폴더`: 새 파일/폴더 생성
+- `rm 파일`, `rm -r 폴더`: 파일/폴더 삭제
+- `cp 원본 대상`, `mv 원본 대상`: 복사 및 이동·이름 변경
+- `rg 패턴`, `grep 패턴 파일`: 내용 검색
+- `find . -name '패턴'`: 파일/폴더 검색
+- `code 파일`: VSCode CLI가 PATH에 등록된 경우 파일 열기 (없으면 무시)
+
 ## 기본 대화 언어 (Default Conversation Language)
 
 - 특별한 요청이 없는 한 사용자와의 대화는 한국어로 진행합니다.
